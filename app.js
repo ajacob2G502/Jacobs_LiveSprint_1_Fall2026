@@ -16,7 +16,7 @@
 
   catBtn.addEventListener("click", function () {
     const catImg = document.createElement(`img`);
-
-    catImg.innerHTML = `img`
   }
-});
+
+  
+,});
