@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Animal Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="test-header">
+      <div class="brand">
+        <h1>Mystery Animal</h1>
+      </div>
+    </header>
+
+    <main class="test-container">
+      <section class="test-title">
+        <div>
+          <h2>Welcome to whats that animal</h2>
+        </div>
+      </section>
+
+      <section class="test-banner">
+        <div>
+          <h2>Click the buttons below to reveal the animal</h2>
+        </div>
+      </section>
+
+      <section class="panel output-panel">
+        <div id="empty-state" class="empty-state"></div>
+        <img id="cat-img" src="tabby-cat.jpg" alt="" />
+        <img id="dog-img" src="dog.jpg" alt="" />
+        <img id="cow-img" src="cow.jpg" alt="" />
+      </section>
+
+      <section class="animal-btn">
+        <button type="button" id="cat-btn" class="cat-btn">Reveal a CAT</button>
+        <button type="button" id="dog-btn" class="dog-btn">Reveal a DOG</button>
+        <button type="button" id="cow-btn" class="cow-btn">Reveal a COW</button>
+      </section>
+    </main>
+  </body>
+  <footer class="test-footer">
+    <p>2026 CSI 3150 Live Sprint 1</p>
+  </footer>
+  <script src="app.js"></script>
 </html>
